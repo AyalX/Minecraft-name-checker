@@ -52,11 +52,11 @@ public class Checker
             getStatus();
             if (taken)
             {
-                System.out.println("[-] " + name + "is taken.");
+                System.out.println("[-] " + name + " is taken.");
             }
             else
             {
-                System.out.println("[+] " + name + "is available.");
+                System.out.println("[+] " + name + " is available.");
                 printWriter.println(name);
             }
             threads--;
